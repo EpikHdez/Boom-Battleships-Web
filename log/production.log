@@ -1,0 +1,498 @@
+I, [2018-04-09T13:06:17.367358 #2287]  INFO -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:06:17 -0600
+I, [2018-04-09T13:06:17.373147 #2287]  INFO -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3] Processing by UserController#show as */*
+I, [2018-04-09T13:06:17.373494 #2287]  INFO -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:06:17.381527 #2287]  INFO -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3] Completed 500 Internal Server Error in 7ms
+F, [2018-04-09T13:06:17.383009 #2287] FATAL -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3]   
+F, [2018-04-09T13:06:17.383401 #2287] FATAL -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:06:17.383559 #2287] FATAL -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3]   
+F, [2018-04-09T13:06:17.383723 #2287] FATAL -- : [d222536f-9cc0-4913-a71d-88a6ee96bfd3] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[d222536f-9cc0-4913-a71d-88a6ee96bfd3] app/commands/authorize_api_request.rb:17:in `user'
+[d222536f-9cc0-4913-a71d-88a6ee96bfd3] app/commands/authorize_api_request.rb:9:in `call'
+[d222536f-9cc0-4913-a71d-88a6ee96bfd3] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:06:36.492970 #2287]  INFO -- : [4c47171e-28d9-4e42-95c1-2010949c36be] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:06:36 -0600
+I, [2018-04-09T13:06:36.493889 #2287]  INFO -- : [4c47171e-28d9-4e42-95c1-2010949c36be] Processing by UserController#show as */*
+I, [2018-04-09T13:06:36.494085 #2287]  INFO -- : [4c47171e-28d9-4e42-95c1-2010949c36be]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:06:36.504869 #2287]  INFO -- : [4c47171e-28d9-4e42-95c1-2010949c36be] Completed 500 Internal Server Error in 10ms
+F, [2018-04-09T13:06:36.506410 #2287] FATAL -- : [4c47171e-28d9-4e42-95c1-2010949c36be]   
+F, [2018-04-09T13:06:36.506750 #2287] FATAL -- : [4c47171e-28d9-4e42-95c1-2010949c36be] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:06:36.506968 #2287] FATAL -- : [4c47171e-28d9-4e42-95c1-2010949c36be]   
+F, [2018-04-09T13:06:36.507163 #2287] FATAL -- : [4c47171e-28d9-4e42-95c1-2010949c36be] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[4c47171e-28d9-4e42-95c1-2010949c36be] app/commands/authorize_api_request.rb:17:in `user'
+[4c47171e-28d9-4e42-95c1-2010949c36be] app/commands/authorize_api_request.rb:9:in `call'
+[4c47171e-28d9-4e42-95c1-2010949c36be] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:06:37.254892 #2287]  INFO -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:06:37 -0600
+I, [2018-04-09T13:06:37.255356 #2287]  INFO -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d] Processing by UserController#show as */*
+I, [2018-04-09T13:06:37.255430 #2287]  INFO -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:06:37.259016 #2287]  INFO -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:06:37.259562 #2287] FATAL -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d]   
+F, [2018-04-09T13:06:37.259636 #2287] FATAL -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:06:37.259667 #2287] FATAL -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d]   
+F, [2018-04-09T13:06:37.259722 #2287] FATAL -- : [1a0d76dd-054f-47e4-a77e-c788e531bd6d] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[1a0d76dd-054f-47e4-a77e-c788e531bd6d] app/commands/authorize_api_request.rb:17:in `user'
+[1a0d76dd-054f-47e4-a77e-c788e531bd6d] app/commands/authorize_api_request.rb:9:in `call'
+[1a0d76dd-054f-47e4-a77e-c788e531bd6d] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:09:17.361496 #2354]  INFO -- : [f0aa917e-cdfc-4023-b916-cbef21bf6dbb] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:09:17 -0600
+I, [2018-04-09T13:09:17.364253 #2354]  INFO -- : [f0aa917e-cdfc-4023-b916-cbef21bf6dbb] Processing by UserController#show as */*
+I, [2018-04-09T13:09:17.364363 #2354]  INFO -- : [f0aa917e-cdfc-4023-b916-cbef21bf6dbb]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:09:17.366265 #2354]  INFO -- : [f0aa917e-cdfc-4023-b916-cbef21bf6dbb] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-09T13:09:17.366441 #2354]  INFO -- : [f0aa917e-cdfc-4023-b916-cbef21bf6dbb] Completed 401 Unauthorized in 2ms (Views: 0.5ms)
+I, [2018-04-09T13:10:09.415171 #2354]  INFO -- : [aff8fd87-2be3-4907-ae66-531c12763718] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:10:09 -0600
+I, [2018-04-09T13:10:09.419819 #2354]  INFO -- : [aff8fd87-2be3-4907-ae66-531c12763718] Processing by AuthController#create as */*
+I, [2018-04-09T13:10:09.420072 #2354]  INFO -- : [aff8fd87-2be3-4907-ae66-531c12763718]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:10:09.437617 #2354]  INFO -- : [aff8fd87-2be3-4907-ae66-531c12763718] Completed 500 Internal Server Error in 17ms
+F, [2018-04-09T13:10:09.438424 #2354] FATAL -- : [aff8fd87-2be3-4907-ae66-531c12763718]   
+F, [2018-04-09T13:10:09.438505 #2354] FATAL -- : [aff8fd87-2be3-4907-ae66-531c12763718] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:10:09.438552 #2354] FATAL -- : [aff8fd87-2be3-4907-ae66-531c12763718]   
+F, [2018-04-09T13:10:09.438597 #2354] FATAL -- : [aff8fd87-2be3-4907-ae66-531c12763718] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:10:49.886341 #2354]  INFO -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:10:49 -0600
+I, [2018-04-09T13:10:49.887080 #2354]  INFO -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5] Processing by AuthController#create as */*
+I, [2018-04-09T13:10:49.887186 #2354]  INFO -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:10:49.890781 #2354]  INFO -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:10:49.891653 #2354] FATAL -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5]   
+F, [2018-04-09T13:10:49.891773 #2354] FATAL -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:10:49.891844 #2354] FATAL -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5]   
+F, [2018-04-09T13:10:49.891903 #2354] FATAL -- : [8e268f2b-045a-4180-9d3c-91b6696df7a5] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:04.799277 #2354]  INFO -- : [d17b79ff-25b6-4737-8c40-b5862098b223] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:04 -0600
+I, [2018-04-09T13:11:04.800023 #2354]  INFO -- : [d17b79ff-25b6-4737-8c40-b5862098b223] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:04.800115 #2354]  INFO -- : [d17b79ff-25b6-4737-8c40-b5862098b223]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:04.804082 #2354]  INFO -- : [d17b79ff-25b6-4737-8c40-b5862098b223] Completed 500 Internal Server Error in 4ms
+F, [2018-04-09T13:11:04.805039 #2354] FATAL -- : [d17b79ff-25b6-4737-8c40-b5862098b223]   
+F, [2018-04-09T13:11:04.805156 #2354] FATAL -- : [d17b79ff-25b6-4737-8c40-b5862098b223] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:04.805221 #2354] FATAL -- : [d17b79ff-25b6-4737-8c40-b5862098b223]   
+F, [2018-04-09T13:11:04.805308 #2354] FATAL -- : [d17b79ff-25b6-4737-8c40-b5862098b223] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:06.113047 #2354]  INFO -- : [fba43871-b367-447e-a82c-43345744ecc2] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:06 -0600
+I, [2018-04-09T13:11:06.113832 #2354]  INFO -- : [fba43871-b367-447e-a82c-43345744ecc2] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:06.113936 #2354]  INFO -- : [fba43871-b367-447e-a82c-43345744ecc2]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:06.117359 #2354]  INFO -- : [fba43871-b367-447e-a82c-43345744ecc2] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:06.118397 #2354] FATAL -- : [fba43871-b367-447e-a82c-43345744ecc2]   
+F, [2018-04-09T13:11:06.118482 #2354] FATAL -- : [fba43871-b367-447e-a82c-43345744ecc2] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:06.118519 #2354] FATAL -- : [fba43871-b367-447e-a82c-43345744ecc2]   
+F, [2018-04-09T13:11:06.118548 #2354] FATAL -- : [fba43871-b367-447e-a82c-43345744ecc2] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:06.854720 #2354]  INFO -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:06 -0600
+I, [2018-04-09T13:11:06.855573 #2354]  INFO -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:06.855685 #2354]  INFO -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:06.859426 #2354]  INFO -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f] Completed 500 Internal Server Error in 4ms
+F, [2018-04-09T13:11:06.860736 #2354] FATAL -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f]   
+F, [2018-04-09T13:11:06.860824 #2354] FATAL -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:06.860868 #2354] FATAL -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f]   
+F, [2018-04-09T13:11:06.860900 #2354] FATAL -- : [d46e0596-0f2b-4e09-b5f4-74992b81d32f] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:07.440599 #2354]  INFO -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:07 -0600
+I, [2018-04-09T13:11:07.441348 #2354]  INFO -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:07.441440 #2354]  INFO -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:07.444729 #2354]  INFO -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:07.445687 #2354] FATAL -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec]   
+F, [2018-04-09T13:11:07.445761 #2354] FATAL -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:07.445791 #2354] FATAL -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec]   
+F, [2018-04-09T13:11:07.445822 #2354] FATAL -- : [4aec25ea-a7c9-4682-a54a-7ac9944b49ec] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:07.625826 #2354]  INFO -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:07 -0600
+I, [2018-04-09T13:11:07.626771 #2354]  INFO -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:07.626996 #2354]  INFO -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:07.630617 #2354]  INFO -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:07.631316 #2354] FATAL -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566]   
+F, [2018-04-09T13:11:07.631419 #2354] FATAL -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:07.631454 #2354] FATAL -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566]   
+F, [2018-04-09T13:11:07.631487 #2354] FATAL -- : [ac58acd2-9cb0-454d-b7fd-9e699fc42566] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:08.525286 #2354]  INFO -- : [e7ae7d32-350a-4529-986e-82c2caea7593] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:08 -0600
+I, [2018-04-09T13:11:08.526008 #2354]  INFO -- : [e7ae7d32-350a-4529-986e-82c2caea7593] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:08.526097 #2354]  INFO -- : [e7ae7d32-350a-4529-986e-82c2caea7593]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:08.529097 #2354]  INFO -- : [e7ae7d32-350a-4529-986e-82c2caea7593] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:08.530138 #2354] FATAL -- : [e7ae7d32-350a-4529-986e-82c2caea7593]   
+F, [2018-04-09T13:11:08.530223 #2354] FATAL -- : [e7ae7d32-350a-4529-986e-82c2caea7593] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:08.530257 #2354] FATAL -- : [e7ae7d32-350a-4529-986e-82c2caea7593]   
+F, [2018-04-09T13:11:08.530288 #2354] FATAL -- : [e7ae7d32-350a-4529-986e-82c2caea7593] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:08.889300 #2354]  INFO -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:08 -0600
+I, [2018-04-09T13:11:08.890693 #2354]  INFO -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:08.891129 #2354]  INFO -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:08.897459 #2354]  INFO -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d] Completed 500 Internal Server Error in 6ms
+F, [2018-04-09T13:11:08.898804 #2354] FATAL -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d]   
+F, [2018-04-09T13:11:08.898888 #2354] FATAL -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:08.898926 #2354] FATAL -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d]   
+F, [2018-04-09T13:11:08.898957 #2354] FATAL -- : [186a407c-b10b-4af3-9a5a-f4cbe625834d] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:09.047441 #2354]  INFO -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:09 -0600
+I, [2018-04-09T13:11:09.048065 #2354]  INFO -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:09.048152 #2354]  INFO -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:09.051232 #2354]  INFO -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:09.052181 #2354] FATAL -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74]   
+F, [2018-04-09T13:11:09.052357 #2354] FATAL -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:09.052451 #2354] FATAL -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74]   
+F, [2018-04-09T13:11:09.052525 #2354] FATAL -- : [4be0ad0d-4ab4-4c50-b456-f0c65960ee74] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:09.261571 #2354]  INFO -- : [634e7513-7c1e-49e6-8607-e29275712c5b] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:09 -0600
+I, [2018-04-09T13:11:09.262950 #2354]  INFO -- : [634e7513-7c1e-49e6-8607-e29275712c5b] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:09.263153 #2354]  INFO -- : [634e7513-7c1e-49e6-8607-e29275712c5b]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:09.269220 #2354]  INFO -- : [634e7513-7c1e-49e6-8607-e29275712c5b] Completed 500 Internal Server Error in 6ms
+F, [2018-04-09T13:11:09.270565 #2354] FATAL -- : [634e7513-7c1e-49e6-8607-e29275712c5b]   
+F, [2018-04-09T13:11:09.270667 #2354] FATAL -- : [634e7513-7c1e-49e6-8607-e29275712c5b] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:09.270861 #2354] FATAL -- : [634e7513-7c1e-49e6-8607-e29275712c5b]   
+F, [2018-04-09T13:11:09.270994 #2354] FATAL -- : [634e7513-7c1e-49e6-8607-e29275712c5b] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:09.449413 #2354]  INFO -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:09 -0600
+I, [2018-04-09T13:11:09.449996 #2354]  INFO -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:09.450080 #2354]  INFO -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:09.453176 #2354]  INFO -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:09.453992 #2354] FATAL -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5]   
+F, [2018-04-09T13:11:09.454101 #2354] FATAL -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:09.454136 #2354] FATAL -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5]   
+F, [2018-04-09T13:11:09.454168 #2354] FATAL -- : [fd9e618b-a2ca-4c61-b7d2-25c4f0d7a5a5] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:09.633690 #2354]  INFO -- : [6859b592-060b-4bea-b7a4-98be378632c0] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:09 -0600
+I, [2018-04-09T13:11:09.634453 #2354]  INFO -- : [6859b592-060b-4bea-b7a4-98be378632c0] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:09.634549 #2354]  INFO -- : [6859b592-060b-4bea-b7a4-98be378632c0]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:09.637715 #2354]  INFO -- : [6859b592-060b-4bea-b7a4-98be378632c0] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:09.638631 #2354] FATAL -- : [6859b592-060b-4bea-b7a4-98be378632c0]   
+F, [2018-04-09T13:11:09.638749 #2354] FATAL -- : [6859b592-060b-4bea-b7a4-98be378632c0] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:09.638782 #2354] FATAL -- : [6859b592-060b-4bea-b7a4-98be378632c0]   
+F, [2018-04-09T13:11:09.638813 #2354] FATAL -- : [6859b592-060b-4bea-b7a4-98be378632c0] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:09.819539 #2354]  INFO -- : [a69c682e-8891-4550-916f-30285a1e29a1] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:09 -0600
+I, [2018-04-09T13:11:09.820491 #2354]  INFO -- : [a69c682e-8891-4550-916f-30285a1e29a1] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:09.820623 #2354]  INFO -- : [a69c682e-8891-4550-916f-30285a1e29a1]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:09.824686 #2354]  INFO -- : [a69c682e-8891-4550-916f-30285a1e29a1] Completed 500 Internal Server Error in 4ms
+F, [2018-04-09T13:11:09.825624 #2354] FATAL -- : [a69c682e-8891-4550-916f-30285a1e29a1]   
+F, [2018-04-09T13:11:09.825743 #2354] FATAL -- : [a69c682e-8891-4550-916f-30285a1e29a1] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:09.825819 #2354] FATAL -- : [a69c682e-8891-4550-916f-30285a1e29a1]   
+F, [2018-04-09T13:11:09.825884 #2354] FATAL -- : [a69c682e-8891-4550-916f-30285a1e29a1] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:11:10.008030 #2354]  INFO -- : [a0b45211-4d11-4729-a5e1-268556ea7893] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:11:10 -0600
+I, [2018-04-09T13:11:10.008733 #2354]  INFO -- : [a0b45211-4d11-4729-a5e1-268556ea7893] Processing by AuthController#create as */*
+I, [2018-04-09T13:11:10.008841 #2354]  INFO -- : [a0b45211-4d11-4729-a5e1-268556ea7893]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:11:10.012181 #2354]  INFO -- : [a0b45211-4d11-4729-a5e1-268556ea7893] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:11:10.013160 #2354] FATAL -- : [a0b45211-4d11-4729-a5e1-268556ea7893]   
+F, [2018-04-09T13:11:10.013310 #2354] FATAL -- : [a0b45211-4d11-4729-a5e1-268556ea7893] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:11:10.013351 #2354] FATAL -- : [a0b45211-4d11-4729-a5e1-268556ea7893]   
+F, [2018-04-09T13:11:10.013382 #2354] FATAL -- : [a0b45211-4d11-4729-a5e1-268556ea7893] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:12:01.608840 #2354]  INFO -- : [6821b5f4-eedf-46eb-852a-cabed3f5a65c] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:12:01 -0600
+I, [2018-04-09T13:12:01.610085 #2354]  INFO -- : [6821b5f4-eedf-46eb-852a-cabed3f5a65c] Processing by UserController#show as */*
+I, [2018-04-09T13:12:01.610251 #2354]  INFO -- : [6821b5f4-eedf-46eb-852a-cabed3f5a65c]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:12:01.611571 #2354]  INFO -- : [6821b5f4-eedf-46eb-852a-cabed3f5a65c] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-09T13:12:01.612601 #2354]  INFO -- : [6821b5f4-eedf-46eb-852a-cabed3f5a65c] Completed 401 Unauthorized in 2ms (Views: 0.5ms)
+I, [2018-04-09T13:12:15.201143 #2354]  INFO -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:12:15 -0600
+I, [2018-04-09T13:12:15.202190 #2354]  INFO -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a] Processing by AuthController#create as */*
+I, [2018-04-09T13:12:15.202323 #2354]  INFO -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:12:15.205966 #2354]  INFO -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:12:15.206911 #2354] FATAL -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a]   
+F, [2018-04-09T13:12:15.206992 #2354] FATAL -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:12:15.207027 #2354] FATAL -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a]   
+F, [2018-04-09T13:12:15.207061 #2354] FATAL -- : [67587d3b-7ba4-4e7f-b28f-26c19aa2c07a] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:13:02.468337 #2354]  INFO -- : [acfef9a5-8134-4f72-8224-585e8892c7c6] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:13:02 -0600
+I, [2018-04-09T13:13:02.471409 #2354]  INFO -- : [acfef9a5-8134-4f72-8224-585e8892c7c6] Processing by AuthController#create as */*
+I, [2018-04-09T13:13:02.471501 #2354]  INFO -- : [acfef9a5-8134-4f72-8224-585e8892c7c6]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:13:02.475308 #2354]  INFO -- : [acfef9a5-8134-4f72-8224-585e8892c7c6] Completed 500 Internal Server Error in 4ms
+F, [2018-04-09T13:13:02.476268 #2354] FATAL -- : [acfef9a5-8134-4f72-8224-585e8892c7c6]   
+F, [2018-04-09T13:13:02.476358 #2354] FATAL -- : [acfef9a5-8134-4f72-8224-585e8892c7c6] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:13:02.476412 #2354] FATAL -- : [acfef9a5-8134-4f72-8224-585e8892c7c6]   
+F, [2018-04-09T13:13:02.476461 #2354] FATAL -- : [acfef9a5-8134-4f72-8224-585e8892c7c6] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:13:26.844725 #2444]  INFO -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:13:26 -0600
+I, [2018-04-09T13:13:26.847773 #2444]  INFO -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c] Processing by AuthController#create as */*
+I, [2018-04-09T13:13:26.847940 #2444]  INFO -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:13:26.864220 #2444]  INFO -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c] Completed 500 Internal Server Error in 16ms
+F, [2018-04-09T13:13:26.865432 #2444] FATAL -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c]   
+F, [2018-04-09T13:13:26.865516 #2444] FATAL -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:13:26.865567 #2444] FATAL -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c]   
+F, [2018-04-09T13:13:26.865609 #2444] FATAL -- : [fd705b1b-28b9-408b-8644-0adc50b87f8c] app/controllers/auth_controller.rb:5:in `create'
+I, [2018-04-09T13:14:11.071203 #2473]  INFO -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:14:11 -0600
+I, [2018-04-09T13:14:11.074041 #2473]  INFO -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb] Processing by AuthController#create as */*
+I, [2018-04-09T13:14:11.074142 #2473]  INFO -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:14:11.083016 #2473]  INFO -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb] Completed 500 Internal Server Error in 9ms
+F, [2018-04-09T13:14:11.083912 #2473] FATAL -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb]   
+F, [2018-04-09T13:14:11.084047 #2473] FATAL -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:14:11.084128 #2473] FATAL -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb]   
+F, [2018-04-09T13:14:11.084195 #2473] FATAL -- : [2d8f385e-2dd2-4e11-85b3-a219eb2bfbdb] app/controllers/auth_controller.rb:6:in `create'
+I, [2018-04-09T13:18:35.206917 #2545]  INFO -- : [d2739ed6-81d9-4eae-b482-38264ca35327] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:18:35 -0600
+I, [2018-04-09T13:18:35.209931 #2545]  INFO -- : [d2739ed6-81d9-4eae-b482-38264ca35327] Processing by AuthController#create as */*
+I, [2018-04-09T13:18:35.210056 #2545]  INFO -- : [d2739ed6-81d9-4eae-b482-38264ca35327]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+I, [2018-04-09T13:18:35.218513 #2545]  INFO -- : [d2739ed6-81d9-4eae-b482-38264ca35327] Completed 500 Internal Server Error in 8ms
+F, [2018-04-09T13:18:35.219623 #2545] FATAL -- : [d2739ed6-81d9-4eae-b482-38264ca35327]   
+F, [2018-04-09T13:18:35.219708 #2545] FATAL -- : [d2739ed6-81d9-4eae-b482-38264ca35327] ActiveRecord::NoDatabaseError (FATAL:  database "battleships_production" does not exist
+):
+F, [2018-04-09T13:18:35.219796 #2545] FATAL -- : [d2739ed6-81d9-4eae-b482-38264ca35327]   
+F, [2018-04-09T13:18:35.219844 #2545] FATAL -- : [d2739ed6-81d9-4eae-b482-38264ca35327] app/controllers/auth_controller.rb:6:in `create'
+D, [2018-04-09T13:22:09.086268 #2655] DEBUG -- :   [1m[35m (20.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+D, [2018-04-09T13:22:09.094053 #2655] DEBUG -- :   [1m[35m (4.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2018-04-09T13:22:09.095166 #2655] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2177985185116409340)[0m
+D, [2018-04-09T13:22:09.116519 #2655] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2018-04-09T13:22:09.118093 #2655]  INFO -- : Migrating to CreateUserTypes (20180401060616)
+D, [2018-04-09T13:22:09.120555 #2655] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.128341 #2655] DEBUG -- :   [1m[35m (7.0ms)[0m  [1m[35mCREATE TABLE "user_types" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2018-04-09T13:22:09.131871 #2655] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180401060616"]]
+D, [2018-04-09T13:22:09.132670 #2655] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.132767 #2655]  INFO -- : Migrating to CreateUsers (20180402011855)
+D, [2018-04-09T13:22:09.133857 #2655] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.139833 #2655] DEBUG -- :   [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying NOT NULL, "email" character varying NOT NULL, "password_digest" character varying NOT NULL, "picture" character varying DEFAULT 'https://res.cloudinary.com/epikhdez/image/upload/v1523240311/no_image.png', "money" integer DEFAULT 500, "user_type_id" bigint DEFAULT 2, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2018-04-09T13:22:09.145276 #2655] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_email" ON "users"  ("email")[0m
+D, [2018-04-09T13:22:09.149923 #2655] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_users_on_user_type_id" ON "users"  ("user_type_id")[0m
+D, [2018-04-09T13:22:09.151153 #2655] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180402011855"]]
+D, [2018-04-09T13:22:09.151800 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.151886 #2655]  INFO -- : Migrating to CreateFriendships (20180403202201)
+D, [2018-04-09T13:22:09.153158 #2655] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.162809 #2655] DEBUG -- :   [1m[35m (8.9ms)[0m  [1m[35mCREATE TABLE "friendships" ("id" bigserial primary key, "user_id" bigint, "friend_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_e3733b59b7"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+D, [2018-04-09T13:22:09.165870 #2655] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_friendships_on_user_id" ON "friendships"  ("user_id")[0m
+D, [2018-04-09T13:22:09.169679 #2655] DEBUG -- :   [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX  "index_friendships_on_friend_id" ON "friendships"  ("friend_id")[0m
+D, [2018-04-09T13:22:09.173335 #2655] DEBUG -- :   [1m[35m (3.0ms)[0m  [1m[35mALTER TABLE "friendships" ADD CONSTRAINT "fk_rails_d78dc9c7fd"
+FOREIGN KEY ("friend_id")
+  REFERENCES "users" ("id")
+[0m
+D, [2018-04-09T13:22:09.174618 #2655] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180403202201"]]
+D, [2018-04-09T13:22:09.175383 #2655] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.175469 #2655]  INFO -- : Migrating to CreateMessages (20180403202944)
+D, [2018-04-09T13:22:09.181309 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.187585 #2655] DEBUG -- :   [1m[35m (5.4ms)[0m  [1m[35mCREATE TABLE "messages" ("id" bigserial primary key, "text" character varying, "friendship_id" bigint, "user_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_af013ac158"
+FOREIGN KEY ("friendship_id")
+  REFERENCES "friendships" ("id")
+, CONSTRAINT "fk_rails_273a25a7a6"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+D, [2018-04-09T13:22:09.190509 #2655] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mCREATE  INDEX  "index_messages_on_friendship_id" ON "messages"  ("friendship_id")[0m
+D, [2018-04-09T13:22:09.194641 #2655] DEBUG -- :   [1m[35m (1.6ms)[0m  [1m[35mCREATE  INDEX  "index_messages_on_user_id" ON "messages"  ("user_id")[0m
+D, [2018-04-09T13:22:09.196376 #2655] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180403202944"]]
+D, [2018-04-09T13:22:09.197346 #2655] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.197498 #2655]  INFO -- : Migrating to CreateGames (20180403203115)
+D, [2018-04-09T13:22:09.198995 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.204528 #2655] DEBUG -- :   [1m[35m (4.7ms)[0m  [1m[35mCREATE TABLE "games" ("id" bigserial primary key, "score" integer, "destroyed_ships" integer, "lost_ships" integer, "board" json, "player_turn" integer, "user_id" bigint, "rival_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_de9e6ea7f7"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+D, [2018-04-09T13:22:09.209469 #2655] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[35mCREATE  INDEX  "index_games_on_user_id" ON "games"  ("user_id")[0m
+D, [2018-04-09T13:22:09.214420 #2655] DEBUG -- :   [1m[35m (1.4ms)[0m  [1m[35mCREATE  INDEX  "index_games_on_rival_id" ON "games"  ("rival_id")[0m
+D, [2018-04-09T13:22:09.216454 #2655] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "games" ADD CONSTRAINT "fk_rails_2bc310ffac"
+FOREIGN KEY ("rival_id")
+  REFERENCES "users" ("id")
+[0m
+D, [2018-04-09T13:22:09.217488 #2655] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180403203115"]]
+D, [2018-04-09T13:22:09.218243 #2655] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.218350 #2655]  INFO -- : Migrating to CreateItems (20180403203329)
+D, [2018-04-09T13:22:09.219780 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.224712 #2655] DEBUG -- :   [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying, "price" integer, "picture" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2018-04-09T13:22:09.226165 #2655] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180403203329"]]
+D, [2018-04-09T13:22:09.226964 #2655] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:09.227059 #2655]  INFO -- : Migrating to CreateInventories (20180403203413)
+D, [2018-04-09T13:22:09.228229 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.234673 #2655] DEBUG -- :   [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "inventories" ("id" bigserial primary key, "quantity" integer, "user_id" bigint, "item_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_6642cbdd87"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_fcf6633a1e"
+FOREIGN KEY ("item_id")
+  REFERENCES "items" ("id")
+)[0m
+D, [2018-04-09T13:22:09.239263 #2655] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX  "index_inventories_on_user_id" ON "inventories"  ("user_id")[0m
+D, [2018-04-09T13:22:09.242481 #2655] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_inventories_on_item_id" ON "inventories"  ("item_id")[0m
+D, [2018-04-09T13:22:09.245869 #2655] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20180403203413"]]
+D, [2018-04-09T13:22:09.246852 #2655] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2018-04-09T13:22:09.251812 #2655] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2018-04-09T13:22:09.257257 #2655] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:09.258855 #2655] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "production"], ["created_at", "2018-04-09 19:22:09.257551"], ["updated_at", "2018-04-09 19:22:09.257551"]]
+D, [2018-04-09T13:22:09.259493 #2655] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2018-04-09T13:22:09.259945 #2655] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(2177985185116409340)[0m
+D, [2018-04-09T13:22:15.232212 #2669] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2018-04-09T13:22:15.254387 #2669] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:15.256368 #2669] DEBUG -- :   [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "user_types" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Administrator"], ["created_at", "2018-04-09 19:22:15.254571"], ["updated_at", "2018-04-09 19:22:15.254571"]]
+D, [2018-04-09T13:22:15.257194 #2669] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2018-04-09T13:22:15.257598 #2669] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:15.258559 #2669] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "user_types" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "player"], ["created_at", "2018-04-09 19:22:15.257720"], ["updated_at", "2018-04-09 19:22:15.257720"]]
+D, [2018-04-09T13:22:15.259182 #2669] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:30.221552 #2684]  INFO -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:22:30 -0600
+I, [2018-04-09T13:22:30.226363 #2684]  INFO -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d] Processing by AuthController#create as */*
+I, [2018-04-09T13:22:30.226637 #2684]  INFO -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+D, [2018-04-09T13:22:30.384493 #2684] DEBUG -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d]   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:22:30.389593 #2684] DEBUG -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d]   [1m[36mUser Exists (1.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "e@a.com"], ["LIMIT", 1]]
+D, [2018-04-09T13:22:30.394948 #2684] DEBUG -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d]   [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Erick Alfaro"], ["email", "e@a.com"], ["password_digest", "$2a$10$uYBVJV0C.oOBorvImbE1xuHWOVxgf/bsZH9D1vL3/ejfQO1vs3JKy"], ["created_at", "2018-04-09 19:22:30.390362"], ["updated_at", "2018-04-09 19:22:30.390362"]]
+D, [2018-04-09T13:22:30.395917 #2684] DEBUG -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d]   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+I, [2018-04-09T13:22:30.397037 #2684]  INFO -- : [a1e2e7f3-d12b-4350-bcd9-6ab5e7bd390d] Completed 201 Created in 170ms (Views: 0.8ms | ActiveRecord: 56.0ms)
+I, [2018-04-09T13:22:36.804150 #2684]  INFO -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:22:36 -0600
+I, [2018-04-09T13:22:36.807411 #2684]  INFO -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] Processing by UserController#show as */*
+I, [2018-04-09T13:22:36.807513 #2684]  INFO -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:22:36.814341 #2684]  INFO -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+F, [2018-04-09T13:22:36.814859 #2684] FATAL -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a]   
+F, [2018-04-09T13:22:36.814917 #2684] FATAL -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:22:36.814949 #2684] FATAL -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a]   
+F, [2018-04-09T13:22:36.814984 #2684] FATAL -- : [3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] app/commands/authorize_api_request.rb:17:in `user'
+[3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] app/commands/authorize_api_request.rb:9:in `call'
+[3039c63f-ed6a-4e2b-8d30-9e9933ffdb0a] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:22:54.436380 #2708]  INFO -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:22:54 -0600
+I, [2018-04-09T13:22:54.439094 #2708]  INFO -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] Processing by UserController#show as */*
+I, [2018-04-09T13:22:54.439198 #2708]  INFO -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:22:54.442806 #2708]  INFO -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:22:54.443457 #2708] FATAL -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223]   
+F, [2018-04-09T13:22:54.443594 #2708] FATAL -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:22:54.443674 #2708] FATAL -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223]   
+F, [2018-04-09T13:22:54.443748 #2708] FATAL -- : [e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] app/commands/authorize_api_request.rb:17:in `user'
+[e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] app/commands/authorize_api_request.rb:9:in `call'
+[e9ea4b9c-0089-4b43-b9f4-fabbfe2d9223] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:22:55.297073 #2708]  INFO -- : [d5faca52-406d-43fb-ad86-44dee214479a] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:22:55 -0600
+I, [2018-04-09T13:22:55.297561 #2708]  INFO -- : [d5faca52-406d-43fb-ad86-44dee214479a] Processing by UserController#show as */*
+I, [2018-04-09T13:22:55.297668 #2708]  INFO -- : [d5faca52-406d-43fb-ad86-44dee214479a]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:22:55.301098 #2708]  INFO -- : [d5faca52-406d-43fb-ad86-44dee214479a] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:22:55.301571 #2708] FATAL -- : [d5faca52-406d-43fb-ad86-44dee214479a]   
+F, [2018-04-09T13:22:55.301654 #2708] FATAL -- : [d5faca52-406d-43fb-ad86-44dee214479a] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:22:55.301688 #2708] FATAL -- : [d5faca52-406d-43fb-ad86-44dee214479a]   
+F, [2018-04-09T13:22:55.301721 #2708] FATAL -- : [d5faca52-406d-43fb-ad86-44dee214479a] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[d5faca52-406d-43fb-ad86-44dee214479a] app/commands/authorize_api_request.rb:17:in `user'
+[d5faca52-406d-43fb-ad86-44dee214479a] app/commands/authorize_api_request.rb:9:in `call'
+[d5faca52-406d-43fb-ad86-44dee214479a] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:22:55.964574 #2708]  INFO -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:22:55 -0600
+I, [2018-04-09T13:22:55.965083 #2708]  INFO -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] Processing by UserController#show as */*
+I, [2018-04-09T13:22:55.965156 #2708]  INFO -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:22:55.968570 #2708]  INFO -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] Completed 500 Internal Server Error in 3ms
+F, [2018-04-09T13:22:55.970389 #2708] FATAL -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3]   
+F, [2018-04-09T13:22:55.970529 #2708] FATAL -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] NameError (uninitialized constant AuthorizeApiRequest::JsonWebToken):
+F, [2018-04-09T13:22:55.970595 #2708] FATAL -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3]   
+F, [2018-04-09T13:22:55.970665 #2708] FATAL -- : [11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] app/commands/authorize_api_request.rb:22:in `decoded_auth_token'
+[11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] app/commands/authorize_api_request.rb:17:in `user'
+[11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] app/commands/authorize_api_request.rb:9:in `call'
+[11e0dfe3-cbc0-4ddc-89eb-1c324a502af3] app/controllers/application_controller.rb:8:in `authenticate_request'
+I, [2018-04-09T13:23:35.046289 #2748]  INFO -- : [479a0bf4-9cee-437f-bb98-1de8b44697c2] Started GET "/api/v1/user/1" for 127.0.0.1 at 2018-04-09 13:23:35 -0600
+I, [2018-04-09T13:23:35.049358 #2748]  INFO -- : [479a0bf4-9cee-437f-bb98-1de8b44697c2] Processing by UserController#show as */*
+I, [2018-04-09T13:23:35.049447 #2748]  INFO -- : [479a0bf4-9cee-437f-bb98-1de8b44697c2]   Parameters: {"id"=>"1"}
+I, [2018-04-09T13:23:35.050231 #2748]  INFO -- : [479a0bf4-9cee-437f-bb98-1de8b44697c2] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-09T13:23:35.050384 #2748]  INFO -- : [479a0bf4-9cee-437f-bb98-1de8b44697c2] Completed 401 Unauthorized in 1ms (Views: 0.3ms)
+I, [2018-04-09T13:23:40.526896 #2748]  INFO -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f] Started POST "/api/v1/auth/signup" for 127.0.0.1 at 2018-04-09 13:23:40 -0600
+I, [2018-04-09T13:23:40.528106 #2748]  INFO -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f] Processing by AuthController#create as */*
+I, [2018-04-09T13:23:40.528203 #2748]  INFO -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   Parameters: {"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]", "auth"=>{"name"=>"Erick Alfaro", "email"=>"e@a.com", "password"=>"[FILTERED]"}}
+D, [2018-04-09T13:23:40.670385 #2748] DEBUG -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2018-04-09T13:23:40.676235 #2748] DEBUG -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   [1m[36mUser Exists (1.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "e@a.com"], ["LIMIT", 1]]
+D, [2018-04-09T13:23:40.690063 #2748] DEBUG -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+I, [2018-04-09T13:23:40.690544 #2748]  INFO -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f] Completed 422 Unprocessable Entity in 162ms (ActiveRecord: 41.3ms)
+F, [2018-04-09T13:23:40.691109 #2748] FATAL -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   
+F, [2018-04-09T13:23:40.691163 #2748] FATAL -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f] ActiveRecord::RecordInvalid (Validation failed: Email must be unique):
+F, [2018-04-09T13:23:40.691196 #2748] FATAL -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f]   
+F, [2018-04-09T13:23:40.691240 #2748] FATAL -- : [b54a783c-7d33-44c9-b0a2-9bffad20fa8f] app/controllers/auth_controller.rb:6:in `create'
+I, [2018-04-14T17:21:35.609300 #1439]  INFO -- : [22ba8d99-2c08-47bd-941a-54e4ed8fce4a] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:35 -0600
+I, [2018-04-14T17:21:35.673772 #1439]  INFO -- : [22ba8d99-2c08-47bd-941a-54e4ed8fce4a] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:35.673853 #1439]  INFO -- : [22ba8d99-2c08-47bd-941a-54e4ed8fce4a]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:35.681096 #1439]  INFO -- : [22ba8d99-2c08-47bd-941a-54e4ed8fce4a] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:35.681236 #1439]  INFO -- : [22ba8d99-2c08-47bd-941a-54e4ed8fce4a] Completed 401 Unauthorized in 7ms (Views: 0.2ms | ActiveRecord: 44.1ms)
+I, [2018-04-14T17:21:35.709826 #1439]  INFO -- : [88a1fe12-7374-4ce8-9d37-21154ab65e91] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:35 -0600
+I, [2018-04-14T17:21:35.710820 #1439]  INFO -- : [88a1fe12-7374-4ce8-9d37-21154ab65e91] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:35.710916 #1439]  INFO -- : [88a1fe12-7374-4ce8-9d37-21154ab65e91]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:35.711545 #1439]  INFO -- : [88a1fe12-7374-4ce8-9d37-21154ab65e91] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:35.711712 #1439]  INFO -- : [88a1fe12-7374-4ce8-9d37-21154ab65e91] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:37.752027 #1439]  INFO -- : [8636715f-ae83-48b9-aa99-3d034873eaaf] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:37 -0600
+I, [2018-04-14T17:21:37.753008 #1439]  INFO -- : [8636715f-ae83-48b9-aa99-3d034873eaaf] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:37.753107 #1439]  INFO -- : [8636715f-ae83-48b9-aa99-3d034873eaaf]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:37.753826 #1439]  INFO -- : [8636715f-ae83-48b9-aa99-3d034873eaaf] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:37.753986 #1439]  INFO -- : [8636715f-ae83-48b9-aa99-3d034873eaaf] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:37.772234 #1439]  INFO -- : [c59d3cf3-4ec5-444f-9a0a-c9721d2f1438] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:37 -0600
+I, [2018-04-14T17:21:37.773181 #1439]  INFO -- : [c59d3cf3-4ec5-444f-9a0a-c9721d2f1438] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:37.773276 #1439]  INFO -- : [c59d3cf3-4ec5-444f-9a0a-c9721d2f1438]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:37.773907 #1439]  INFO -- : [c59d3cf3-4ec5-444f-9a0a-c9721d2f1438] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:37.774073 #1439]  INFO -- : [c59d3cf3-4ec5-444f-9a0a-c9721d2f1438] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:39.595946 #1439]  INFO -- : [c0fff2f8-a279-4970-a801-8573855ebd98] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:39 -0600
+I, [2018-04-14T17:21:39.596858 #1439]  INFO -- : [c0fff2f8-a279-4970-a801-8573855ebd98] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:39.596957 #1439]  INFO -- : [c0fff2f8-a279-4970-a801-8573855ebd98]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:39.597616 #1439]  INFO -- : [c0fff2f8-a279-4970-a801-8573855ebd98] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:39.597784 #1439]  INFO -- : [c0fff2f8-a279-4970-a801-8573855ebd98] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:39.725939 #1439]  INFO -- : [f3a67957-4133-4521-b679-5c79bb982dfc] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:39 -0600
+I, [2018-04-14T17:21:39.726881 #1439]  INFO -- : [f3a67957-4133-4521-b679-5c79bb982dfc] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:39.726985 #1439]  INFO -- : [f3a67957-4133-4521-b679-5c79bb982dfc]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:39.727724 #1439]  INFO -- : [f3a67957-4133-4521-b679-5c79bb982dfc] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:39.727881 #1439]  INFO -- : [f3a67957-4133-4521-b679-5c79bb982dfc] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:39.941669 #1439]  INFO -- : [a3d2e00f-ecc7-47e0-a0fa-735af5d200a8] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:39 -0600
+I, [2018-04-14T17:21:39.942545 #1439]  INFO -- : [a3d2e00f-ecc7-47e0-a0fa-735af5d200a8] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:39.942634 #1439]  INFO -- : [a3d2e00f-ecc7-47e0-a0fa-735af5d200a8]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:39.943357 #1439]  INFO -- : [a3d2e00f-ecc7-47e0-a0fa-735af5d200a8] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:39.943521 #1439]  INFO -- : [a3d2e00f-ecc7-47e0-a0fa-735af5d200a8] Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:39.968980 #1439]  INFO -- : [7fdfb89c-3a98-435e-bf3f-ccc9b5f05b0d] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:39 -0600
+I, [2018-04-14T17:21:39.969927 #1439]  INFO -- : [7fdfb89c-3a98-435e-bf3f-ccc9b5f05b0d] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:39.970018 #1439]  INFO -- : [7fdfb89c-3a98-435e-bf3f-ccc9b5f05b0d]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:39.970642 #1439]  INFO -- : [7fdfb89c-3a98-435e-bf3f-ccc9b5f05b0d] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:39.970798 #1439]  INFO -- : [7fdfb89c-3a98-435e-bf3f-ccc9b5f05b0d] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.210146 #1439]  INFO -- : [f8f3a8e6-8f02-4710-9b79-22da7e4bcbe3] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.211067 #1439]  INFO -- : [f8f3a8e6-8f02-4710-9b79-22da7e4bcbe3] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.211156 #1439]  INFO -- : [f8f3a8e6-8f02-4710-9b79-22da7e4bcbe3]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.211829 #1439]  INFO -- : [f8f3a8e6-8f02-4710-9b79-22da7e4bcbe3] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.211999 #1439]  INFO -- : [f8f3a8e6-8f02-4710-9b79-22da7e4bcbe3] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.221998 #1439]  INFO -- : [a7ed29f4-a315-4fc5-b2c9-5b4f081c2733] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.222881 #1439]  INFO -- : [a7ed29f4-a315-4fc5-b2c9-5b4f081c2733] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.222976 #1439]  INFO -- : [a7ed29f4-a315-4fc5-b2c9-5b4f081c2733]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.223657 #1439]  INFO -- : [a7ed29f4-a315-4fc5-b2c9-5b4f081c2733] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.223836 #1439]  INFO -- : [a7ed29f4-a315-4fc5-b2c9-5b4f081c2733] Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.516292 #1439]  INFO -- : [5d7826bf-3b3c-4ab7-83a2-c4a7a5454821] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.517204 #1439]  INFO -- : [5d7826bf-3b3c-4ab7-83a2-c4a7a5454821] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.517292 #1439]  INFO -- : [5d7826bf-3b3c-4ab7-83a2-c4a7a5454821]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.517962 #1439]  INFO -- : [5d7826bf-3b3c-4ab7-83a2-c4a7a5454821] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.518120 #1439]  INFO -- : [5d7826bf-3b3c-4ab7-83a2-c4a7a5454821] Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.544923 #1439]  INFO -- : [cdd6d831-ff17-41c4-9c55-3db06e15a7d2] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.545887 #1439]  INFO -- : [cdd6d831-ff17-41c4-9c55-3db06e15a7d2] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.545977 #1439]  INFO -- : [cdd6d831-ff17-41c4-9c55-3db06e15a7d2]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.546629 #1439]  INFO -- : [cdd6d831-ff17-41c4-9c55-3db06e15a7d2] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.546784 #1439]  INFO -- : [cdd6d831-ff17-41c4-9c55-3db06e15a7d2] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.692206 #1439]  INFO -- : [3f650ba4-59d5-402d-8a99-e32bc49ebf97] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.693132 #1439]  INFO -- : [3f650ba4-59d5-402d-8a99-e32bc49ebf97] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.693220 #1439]  INFO -- : [3f650ba4-59d5-402d-8a99-e32bc49ebf97]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.693866 #1439]  INFO -- : [3f650ba4-59d5-402d-8a99-e32bc49ebf97] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.694041 #1439]  INFO -- : [3f650ba4-59d5-402d-8a99-e32bc49ebf97] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.714041 #1439]  INFO -- : [ab4d3fa0-cc01-4ac8-863e-abf27e00161a] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.714898 #1439]  INFO -- : [ab4d3fa0-cc01-4ac8-863e-abf27e00161a] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.714986 #1439]  INFO -- : [ab4d3fa0-cc01-4ac8-863e-abf27e00161a]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.715651 #1439]  INFO -- : [ab4d3fa0-cc01-4ac8-863e-abf27e00161a] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.715834 #1439]  INFO -- : [ab4d3fa0-cc01-4ac8-863e-abf27e00161a] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.967479 #1439]  INFO -- : [a9f1f581-8e3d-4b81-87f7-57265589bfc4] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.968413 #1439]  INFO -- : [a9f1f581-8e3d-4b81-87f7-57265589bfc4] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.968505 #1439]  INFO -- : [a9f1f581-8e3d-4b81-87f7-57265589bfc4]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.969148 #1439]  INFO -- : [a9f1f581-8e3d-4b81-87f7-57265589bfc4] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.969303 #1439]  INFO -- : [a9f1f581-8e3d-4b81-87f7-57265589bfc4] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:40.988643 #1439]  INFO -- : [2c9a099b-348a-4411-9b0f-ba478e078be2] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:40 -0600
+I, [2018-04-14T17:21:40.989538 #1439]  INFO -- : [2c9a099b-348a-4411-9b0f-ba478e078be2] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:40.989657 #1439]  INFO -- : [2c9a099b-348a-4411-9b0f-ba478e078be2]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:40.990309 #1439]  INFO -- : [2c9a099b-348a-4411-9b0f-ba478e078be2] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:40.990464 #1439]  INFO -- : [2c9a099b-348a-4411-9b0f-ba478e078be2] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.233261 #1439]  INFO -- : [43e4095f-86d1-42ab-8767-fff4134367c0] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.234193 #1439]  INFO -- : [43e4095f-86d1-42ab-8767-fff4134367c0] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.234282 #1439]  INFO -- : [43e4095f-86d1-42ab-8767-fff4134367c0]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.234929 #1439]  INFO -- : [43e4095f-86d1-42ab-8767-fff4134367c0] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.235127 #1439]  INFO -- : [43e4095f-86d1-42ab-8767-fff4134367c0] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.253657 #1439]  INFO -- : [c1087f0d-c096-470a-95df-ebd1638a45c7] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.254586 #1439]  INFO -- : [c1087f0d-c096-470a-95df-ebd1638a45c7] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.254676 #1439]  INFO -- : [c1087f0d-c096-470a-95df-ebd1638a45c7]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.255326 #1439]  INFO -- : [c1087f0d-c096-470a-95df-ebd1638a45c7] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.255482 #1439]  INFO -- : [c1087f0d-c096-470a-95df-ebd1638a45c7] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.469619 #1439]  INFO -- : [cbd4114e-f8ed-4966-994c-b27050bd2b6a] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.470571 #1439]  INFO -- : [cbd4114e-f8ed-4966-994c-b27050bd2b6a] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.470661 #1439]  INFO -- : [cbd4114e-f8ed-4966-994c-b27050bd2b6a]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.471341 #1439]  INFO -- : [cbd4114e-f8ed-4966-994c-b27050bd2b6a] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.471497 #1439]  INFO -- : [cbd4114e-f8ed-4966-994c-b27050bd2b6a] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.486771 #1439]  INFO -- : [a2aa8fc9-be04-49f4-9fae-02d58413172b] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.487645 #1439]  INFO -- : [a2aa8fc9-be04-49f4-9fae-02d58413172b] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.487735 #1439]  INFO -- : [a2aa8fc9-be04-49f4-9fae-02d58413172b]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.488348 #1439]  INFO -- : [a2aa8fc9-be04-49f4-9fae-02d58413172b] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.488531 #1439]  INFO -- : [a2aa8fc9-be04-49f4-9fae-02d58413172b] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.722056 #1439]  INFO -- : [375a8741-cf1b-4f65-a46a-22014382ce52] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.722995 #1439]  INFO -- : [375a8741-cf1b-4f65-a46a-22014382ce52] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.723084 #1439]  INFO -- : [375a8741-cf1b-4f65-a46a-22014382ce52]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.723746 #1439]  INFO -- : [375a8741-cf1b-4f65-a46a-22014382ce52] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.723900 #1439]  INFO -- : [375a8741-cf1b-4f65-a46a-22014382ce52] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:41.737917 #1439]  INFO -- : [d11215bf-270e-4be4-bc42-6623aa28acec] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:41 -0600
+I, [2018-04-14T17:21:41.738789 #1439]  INFO -- : [d11215bf-270e-4be4-bc42-6623aa28acec] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:41.738878 #1439]  INFO -- : [d11215bf-270e-4be4-bc42-6623aa28acec]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:41.739567 #1439]  INFO -- : [d11215bf-270e-4be4-bc42-6623aa28acec] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:41.739725 #1439]  INFO -- : [d11215bf-270e-4be4-bc42-6623aa28acec] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:42.359533 #1439]  INFO -- : [ed089c6c-1c98-4069-ac90-d77e15d60d03] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:42 -0600
+I, [2018-04-14T17:21:42.360457 #1439]  INFO -- : [ed089c6c-1c98-4069-ac90-d77e15d60d03] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:42.360593 #1439]  INFO -- : [ed089c6c-1c98-4069-ac90-d77e15d60d03]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:42.361252 #1439]  INFO -- : [ed089c6c-1c98-4069-ac90-d77e15d60d03] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:42.361407 #1439]  INFO -- : [ed089c6c-1c98-4069-ac90-d77e15d60d03] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+I, [2018-04-14T17:21:42.374428 #1439]  INFO -- : [604eaddf-1228-4a51-adae-c5fa76eb8bd2] Started GET "/api/v1/random/user" for 192.168.0.100 at 2018-04-14 17:21:42 -0600
+I, [2018-04-14T17:21:42.375360 #1439]  INFO -- : [604eaddf-1228-4a51-adae-c5fa76eb8bd2] Processing by UsersController#random as JSON
+I, [2018-04-14T17:21:42.375477 #1439]  INFO -- : [604eaddf-1228-4a51-adae-c5fa76eb8bd2]   Parameters: {"user"=>{}}
+I, [2018-04-14T17:21:42.376143 #1439]  INFO -- : [604eaddf-1228-4a51-adae-c5fa76eb8bd2] Filter chain halted as :authenticate_request rendered or redirected
+I, [2018-04-14T17:21:42.376297 #1439]  INFO -- : [604eaddf-1228-4a51-adae-c5fa76eb8bd2] Completed 401 Unauthorized in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)

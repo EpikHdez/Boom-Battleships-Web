@@ -1,0 +1,9 @@
+I"£(function() {
+  $('#loginButton').click(function() {
+    var email, pass;
+    email = $('#iEmail').text;
+    return pass = $('#iPass').text;
+  });
+
+}).call(this);
+:ET

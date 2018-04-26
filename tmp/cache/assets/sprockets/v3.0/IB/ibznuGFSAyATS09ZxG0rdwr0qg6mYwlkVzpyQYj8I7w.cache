@@ -1,0 +1,21 @@
+I"½(function() {
+  $('#loginButton').click(function(e) {
+    var user;
+    e.preventDefault();
+    user = {};
+    user.email = $('#iEmail').val();
+    user.password = $('#iPass').val();
+    return $.post('api/v1/auth/login', {
+      dataType: 'json',
+      data: user,
+      success: function(data) {
+        return console.log(data);
+      },
+      error: function(error) {
+        return console.log(error);
+      }
+    });
+  });
+
+}).call(this);
+:ET

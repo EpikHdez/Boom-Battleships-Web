@@ -1,0 +1,20 @@
+I"Z(function() {
+  var root;
+
+  root = typeof exports !== "undefined" && exports !== null ? exports : this;
+
+  $(function() {
+    if ($.fn.cloudinary_fileupload !== void 0) {
+      return $("input.cloudinary-fileupload[type=file]").cloudinary_fileupload();
+    }
+  });
+
+  root.editItem = function(id, name, price) {
+    return swal({
+      title: 'Editar item',
+      html: '<label>Nombre</label><input type="text" id="itemNewName" class="swal2-input" value=' + name + '>' + '<label>Precio</label><input type="text" id="itemNewPrice" class="swal2-input" value=' + price + '>'
+    });
+  };
+
+}).call(this);
+:ET

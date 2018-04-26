@@ -1,0 +1,11 @@
+I"Ö(function() {
+  $('#loginButton').click(function(e) {
+    var email, pass;
+    e.preventDefault();
+    email = $('#iEmail').val();
+    pass = $('#iPass').val();
+    return console.log(email);
+  });
+
+}).call(this);
+:ET

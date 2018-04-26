@@ -1,0 +1,24 @@
+I"(function() {
+  $('#loginButton').click(function(e) {
+    var user;
+    e.preventDefault();
+    user = {
+      auth: {}
+    };
+    user.auth.email = $('#iEmail').val();
+    user.auth.password = $('#iPass').val();
+    return $.ajax('api/v1/auth/login', {
+      type: 'post',
+      dataType: 'json',
+      data: user,
+      success: function(response) {
+        return localStorage.setItem('user', response);
+      },
+      error: function(error) {
+        return console.log(error);
+      }
+    });
+  });
+
+}).call(this);
+:ET

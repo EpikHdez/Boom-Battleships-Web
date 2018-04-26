@@ -1,0 +1,13 @@
+rails g controller <nombre> <metodos (Opcionales)> #Crea un nuevo controller con su respectivod archivo para pruebas y si le pone metodos también las vistas
+
+rails g model <nombre> <nombre_atributo:tipo> -> N-veces, depende de la cantidad de columas de la tabla #crea un nuevo modelo que es lo que se va a guardar en la BD, su archivo para crear la tabla y sus archivos de pruebas
+
+rails s #ejecuta el servidor de manera local
+
+rake db:migrate #ejecuta los cambios de db/migrate en la BD local
+heroku rake db:migrate #igual que el anterior pero a nivel de heroku
+
+bundle install #Ejecutarlo si se hizo algún cambio al Gemfile
+
+git push heroku master #publica el repo en el servidor
+
